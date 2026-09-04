@@ -26,3 +26,4 @@
 /root/apis/report/obj/Debug/net10.0/report.pdb
 /root/apis/report/obj/Debug/net10.0/report.genruntimeconfig.cache
 /root/apis/report/obj/Debug/net10.0/ref/report.dll
+/root/apis/report/obj/Debug/net10.0/report.sourcelink.json
