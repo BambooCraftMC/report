@@ -1,0 +1,22 @@
+```ansi
+[m[1m[31m        [37m_,met$$$$$gg.[m          [m[1m[31mroot[m@[1m[31mvps3380590[m
+[1m[37m     ,g$$$$$$$$$$$$$$$P.[m       ---------------
+[1m[37m   ,g$$P""       """Y$$.".[m     [m[1m[31mOS[m: [mDebian GNU/Linux forky/sid (forky) x86_64
+[1m[37m  ,$$P'              `$$$.[m     [m[1m[31mHost[m: [mKVM/QEMU Standard PC (i440FX + PIIX, 1996) (pc-i440fx-8.2)
+[1m[37m',$$P       ,ggs.     `$$b:[m    [m[1m[31mKernel[m: [mLinux 7.1.7+deb14-amd64
+[1m[37m`d$$'     ,$P"'   [31m.[37m    $$$[m     [m[1m[31mUptime[m: [m19 days, 22 hours, 6 mins
+[1m[37m $$P      d$'     [31m,[37m    $$P[m     [m[1m[31mPackages[m: [m1190 (dpkg)
+[1m[37m $$:      $$.   [31m-[37m    ,d$$'[m     [m[1m[31mShell[m: [mbash 5.3.9
+[1m[37m $$;      Y$b._   _,d$P'[m       [m[1m[31mDisplay (QEMU Monitor)[m: [m1280x800 in 15", 75 Hz
+[1m[37m Y$$.    [31m`.[37m`"Y$$$$P"'[m          [m[1m[31mTerminal[m: [msshd 10.4p1 Debian-5
+[1m[37m `$$b      [31m"-.__[m               [m[1m[31mCPU[m: [mIntel(R) Xeon(R) Platinum 8173M (2) @ 2.00 GHz
+[1m[31m  [37m`Y$$b[m                        [m[1m[31mGPU[m: [mQEMU Virtual Video Controller
+[1m[37m   `Y$$.[m                       [m[1m[31mMemory[m: [m3.15 GiB / 5.93 GiB ([93m53%[m)
+[1m[37m     `$$b.[m                     [m[1m[31mSwap[m: [m140.84 MiB / 954.00 MiB ([32m15%[m)
+[1m[37m       `Y$$b.[m                  [m[1m[31mDisk (/)[m: [m410.46 GiB / 2.93 TiB ([32m14%[m) - ext4
+[1m[37m         `"Y$b._[m               [m[1m[31mLocal IP (eth0)[m: [m69.164.249.196/26
+[1m[37m             `""""[m             [m[1m[31mLocale[m: [men_US.UTF-8
+                               
+                               [m[40m   [41m   [42m   [43m   [44m   [45m   [46m   [47m   [m
+                               [100m   [101m   [102m   [103m   [104m   [105m   [106m   [107m   [m
+[m```

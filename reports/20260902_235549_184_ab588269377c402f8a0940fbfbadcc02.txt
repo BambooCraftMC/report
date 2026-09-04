@@ -1,0 +1,14 @@
+﻿PLAYER REPORT
+==============================
+Date:             2026-09-02 19:55:49
+IP:               127.0.0.1
+
+In-game username: TimberCat10
+Reported player:  adventbud01
+Game:             Earth
+Server:           OutlandsMC
+
+Details:
+------------------------------
+pissbot13003
+==============================
