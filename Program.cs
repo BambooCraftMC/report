@@ -5,8 +5,8 @@ using Microsoft.AspNetCore.Http.Features;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Listen on HTTP port 5000.
-// Put this behind your HTTPS reverse proxy if desired.
+// Listen on HTTP port 5000. didnt you overload that port with earth or something
+// Put this behind your HTTPS reverse proxy if desired. you even left the comments in :skull:
 builder.WebHost.UseUrls("http://0.0.0.0:5000");
 
 var app = builder.Build();
@@ -36,7 +36,16 @@ app.MapPost("/report/", async (HttpContext context) =>
 {
     string ip = GetClientIp(context);
 
-    // Clean up old IP entries if the table gets too large.
+    string source = context.Request.Form["source"].ToString().Trim();
+
+    if (!source.Equals("mcidiots.net", StringComparison.OrdinalIgnoreCase) &&
+        !source.Equals("outlandsmc.net", StringComparison.OrdinalIgnoreCase))
+    {
+        return Results.BadRequest("Invalid source.");
+    }
+
+
+    // Clean up old IP entries if the table gets too large. lol timber used ai lolololol
     if (ipLimits.Count > MaxStoredIps)
     {
         foreach (var entry in ipLimits)
@@ -91,7 +100,7 @@ app.MapPost("/report/", async (HttpContext context) =>
         return Results.BadRequest("All fields are required.");
     }
 
-    // Field length limits.
+    // Field length limits. That's on me- and honestly? That is someting that most people wouldn't notice!
     if (username.Length > 50)
         return Results.BadRequest("Username is too long.");
 
@@ -194,7 +203,11 @@ app.MapPost("/report/", async (HttpContext context) =>
 
     // Report was successfully processed.
     // Send the user to OutlandsMC with a 301 redirect.
-    return Results.Redirect("https://outlandsmc.net", permanent: true);
+    string redirectUrl = source.Equals("mcidiots.net", StringComparison.OrdinalIgnoreCase)
+    ? "https://mcidiots.net/"
+    : "https://outlandsmc.net/";
+
+    return Results.Redirect(redirectUrl, permanent: false);
 });
 
 // Optional GET endpoint so you can quickly test that the server is alive.
